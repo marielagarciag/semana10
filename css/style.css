@@ -1,0 +1,131 @@
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+}
+
+.wrapper1, 
+.wrapper2 {
+	display: flex;
+}
+
+.wrapper div, 
+.wrapper1 div {
+	flex: 1;
+	text-align: center;
+	margin: 10px;
+}
+
+.wrapper div img, 
+.wrapper1 div img {
+	width: 50%;
+	margin: 10px;
+}
+
+.rentimg {
+	width: 100%;
+}
+
+header, nav, p, footer, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+header, footer {
+	background-color: #63ab7b;
+}
+
+h1 {
+	color: white;
+	font-family: 'Playfair Display';
+	font-size: 40px;
+}
+
+nav {
+	text-align: right;
+	color: white;
+}
+
+nav ul li {
+	display: inline;
+}
+
+a:link {
+	color: white; 
+	font-size: 1em;
+	background-color: transparent; 
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px;
+}
+
+a:hover {
+	background-color: transparent;
+	text-decoration: none;
+	color: #E6672C;
+}
+
+a:visited {
+	color: white;
+}
+
+section { 
+
+}
+
+article {
+
+}
+
+.h3build {
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding: 6px;
+}
+
+.ul2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	list-style-type: square;
+	text-align: left;
+	line-height: 35px;
+}
+
+p {
+	padding: 70px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+img {
+	width: 50%;
+	padding: 20px;
+}
+
+.gallery {
+  	margin: 20px 60px;
+  	display: flex;
+  	flex-direction: row;
+}
+
+.gallery img {
+	  width: 100px;
+	  padding: 5px;
+	  transition: 2s;
+}
+
+.gallery img:hover {
+  	transform: scale(1.1);
+}
+
+footer {
+	color: white;
+	padding: 5px;
+}
